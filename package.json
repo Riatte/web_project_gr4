@@ -2,13 +2,13 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://riatte.github.io/web_project_gr4",
+  "homepage": "https://riatte.github.io/web_project_gr4/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
-    "type": "git",npm 
+    "type": "git",
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
