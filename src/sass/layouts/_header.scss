@@ -1,23 +1,22 @@
 @import url('https://fonts.cdnfonts.com/css/recoleta');
 .header {
-    background-color: #163A24;
+    background-color: var(--primary-bg-color);
     display: flex;
     height: 98px;
-}
 
-.img_header{
+&__img{
 height: 58px;
 margin-left: 130px;
 margin-top: 20px;
 }
 
-.nav{
+&__nav{
     text-align: center;
     margin-top: 25px;
     margin-left: 100px;
 }
 
-.a_header{
+&__a{
     font-family: 'Recoleta';
     color: white;
     font-size: 24px;
@@ -27,7 +26,7 @@ margin-top: 20px;
     margin: 10px;
 }
 
-.number_header{
+&__number{
     color:#FBFAF7; 
     font-size: 16px;
     text-align: right;
@@ -36,7 +35,7 @@ margin-top: 20px;
     text-decoration: none;
 }
 
-.button_header{
+&__button{
     background-color: #198C36;
     border-radius: 160px;
     height: 52px;
@@ -46,9 +45,10 @@ margin-top: 20px;
     border: 0;
 }
 
-.text_button_header{
+&__text_button{
     color: #FBFAF7;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+}
 }
