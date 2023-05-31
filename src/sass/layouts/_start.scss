@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+.start_section {
+    background-color: rgba(22, 58, 36, 1);
+}
+.start_div {
+    display: block;
+    text-align: center;
+    padding: 120px 0;  
+}
+
+.start_h2 {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: white;
+}
+
+.start_p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+    margin-top: 26px;
+}
+
+.start_button {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 160px;
+    text-align: center;
+    color: #163A24;
+    background: #FAB5A0;
+    padding: 15px 25px;
+    margin-top: 18px;
+}
