@@ -12,12 +12,13 @@
         line-height: 54px;
         color: #FBFAF7;
         margin-top: 66px;
-        margin-bottom: 75px;
+        text-align: center;
     }
 
     &__ul {
         display: flex;
         list-style-type: none;
+        justify-content: space-between;
     }
 
     &__li {
@@ -27,23 +28,31 @@
     }
 
     &__img_one {
-        width: 100.24px;
-        height: 128.72px;
+        width: 117px;
+        height: 145;
+        margin-top: 74px;
+        margin-bottom: 21px;
     }
 
     &__img_two {
-        width: 72.56px;
-        height: 145px;
+        width: 79px;
+        height: 160px;
+        margin-top: 67px;
+        margin-bottom: 13px;
     }
 
     &__img_three {
         width: 66px;
         height: 145px;
+        margin-top: 67px;
+        margin-bottom: 28px;
     }
 
     &__img_four {
-        width: 91.21px;
-        height: 141.48px;
+        width: 91.83px;
+        height: 145px;
+        margin-top: 67px;
+        margin-bottom: 28px;
     }
 
     &__p {
@@ -52,4 +61,5 @@
         line-height: calc(27/18);
         color: #FBFAF7;
     }
+
 }
