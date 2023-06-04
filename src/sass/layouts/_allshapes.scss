@@ -1,17 +1,19 @@
 @import url('https://fonts.cdnfonts.com/css/recoleta');
 .allshapes_section {
     background-color: var(--beige-bg-color);
+    padding: 120 0 120 0;
 }
 .allshapes_div {
     display: block;
-    text-align: center;
-    padding: 120px 0;  
+    text-align: center; 
+    width: 760px;
+    margin: 0 auto;
 }
 
 .allshapes_h2 {
     font-family: 'Recoleta';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 48px;
     line-height: 54px;
     color:  #163A24;
@@ -25,9 +27,4 @@
     line-height: 27px;
     color:  #163A24;
     margin-top: 26px;
-}
-.allshapes_div1{
-    padding: 142px 98px;
-    width: 593px;
-    height: 229px;
 }
