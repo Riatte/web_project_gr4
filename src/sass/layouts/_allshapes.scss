@@ -1,5 +1,33 @@
-.allshapes{
-    width: 100%;
-    background-color: #F2EFE6;
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+.allshapes_section {
+    background-color: var(--beige-bg-color);
+}
+.allshapes_div {
+    display: block;
+    text-align: center;
+    padding: 120px 0;  
+}
 
+.allshapes_h2 {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    color:  #163A24;
+}
+
+.allshapes_p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:  #163A24;
+    margin-top: 26px;
+}
+.allshapes_div1{
+    padding: 142px 98px;
+    width: 593px;
+    height: 229px;
 }

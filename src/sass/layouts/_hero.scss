@@ -1,5 +1,52 @@
-.hero{
-    width: 1440px; height: 544px;
-    background-color: #194429;
+@import url('https://fonts.cdnfonts.com/css/recoleta');
 
+.hero{
+    background-color: var(--primary-bg-color);
+    height: 568px;
+
+    //&__h1 {
+     //   font-family: 'Recoleta';
+       // font-style: normal;
+        //font-weight: 491;
+        //font-size: 48px;
+        //line-height: 190px;
+        //color: #FBFAF7;
+        //margin-top: 66px;
+        //text-align: left;
+    //}
+
+}
+.hero_div_main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero_div1{
+    padding: 142px 98px;
+    width: 593px;
+    height: 229px;
+}
+
+.hero_h2{
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero_p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:white;
+    margin-bottom: 19px;
+}
+.heromain{
+    display: flex;
+    justify-content: center;
 }
