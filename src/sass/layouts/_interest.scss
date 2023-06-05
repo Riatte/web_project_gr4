@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+
+.interest {
+    
+    height: 602px;
+
+    &__h2 {
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54px;
+        color: #163A24;
+        margin-top: 13px;
+        margin-left: 225px
+    }
+
+    &__ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        
+    }
+
+    &__li1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 200px
+    }
+
+    &__li2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 100px
+    }
+
+    &__li3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    &__img_two {
+        width: 62px;
+        height: 75px;
+        margin-top: 67px;
+        margin-bottom: 28px;
+        
+    }
+
+
+    &__img_three {
+        width: 83px;
+        height: 75px;
+        margin-top: 67px;
+        margin-bottom: 28px;
+        
+    }
+
+    &__img_four {
+        width: 82px;
+        height: 75px;
+        margin-top: 67px;
+        margin-bottom: 28px;
+       
+    }
+
+    &__p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: calc(27/18);
+        color: #163A24;
+        text-align: center;
+        margin-top: 40px;
+      
+    }
+    &__z {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: calc(27/18);
+        color: #163A24;
+        text-align: center;
+        margin-top: 26px;
+    }
+    &__h3 {
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: calc(27/18);
+        color: #163A24;
+        margin-top: 13px;
+        text-align: center;
+        
+    }
+    
+}
