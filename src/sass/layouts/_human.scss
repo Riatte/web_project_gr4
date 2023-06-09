@@ -2,13 +2,14 @@
 .human1_div_main {
     display: flex;
     justify-content: center;
-    padding: 120 1000 120 0;
+    margin-top: 132px;
 }
 
 .human1_div1{
-    padding: 142px 98px;
+   
     width: 570px;
     height: 229px;
+    
 }
 
 .human1_h21{
@@ -18,7 +19,8 @@
     font-size: 48px;
     line-height: 54px;
     color: #163A24;
-    margin-bottom: 25px;
+    
+   
    
 }
 
@@ -29,19 +31,23 @@
     font-size: 18px;
     line-height: 27px;
     color: #163A24;
-    margin-top: 40px;
+    margin-top: 27px;
+    
 }
 
 .human2_div_main {
     display: flex;
     justify-content: center;
-    padding: 120 0 120 700;
+    margin-top: 200px;
+    margin-bottom: 113px;
+    
 }
 
 .human2_div1{
-    padding: 142px 98px;
+    
     width: 570px;
     height: 229px;
+    margin-top: 105px;
 }
 
 .human2_h22{
@@ -51,7 +57,10 @@
     font-size: 48px;
     line-height: 54px;
     color: #163A24;
-    margin-bottom: 25px;
+    
+    
+    
+
 }
 
 .human2_p2{
@@ -61,11 +70,13 @@
     font-size: 18px;
     line-height: 27px;
     color: #163A24;
-    margin-bottom: 19px;
-    margin-top: 40px;
+    margin-top: 27px;
+   
 }
 .human1_div2{
-    padding: 142px 98px;
+ 
     width: 570px;
     height: 229px;
+    margin-top: 105px;
+    margin-bottom: 0px;
 }
