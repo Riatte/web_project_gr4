@@ -1,24 +1,24 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <!-- <button data-modal-close class="button-close">
+    <button data-modal-close class="button-close">
       <svg class="close-icons" width="18px" hight="18px">
-        <use href="./images/icons.svg#icon-cross"></use>
+        <use href="./images/sprite.svg#cross"></use>
       </svg>
-    </button> -->
-    <h2 class="form__head">Registration</p>
+    </button>
+    <h2 class="form__head">Registration</h2>
     <form action="" class="form__modal">
       <div class="form__element">
-        <label for="name">Full Name</label>
-        <div class="input-wrap">
-          <input type="text" name="name" id="name" required />
-          <input type="text" name="name" id="name" required />
+        <label class="form__label" for="name">Full Name</label>
+        <div class="form__input-wrap">
+          <input class="form__input" type="text" name="name" id="name" required />
+          <input class="form__input" type="text" name="name" id="name" required />
         </div>
       </div>
 
       <div class="form__element">
-        <label for="email">Email</label>
-        <div class="input-wrap">
-          <input
+        <label class="form__label" for="email">Email</label>
+        <div class="form__input-wrap">
+          <input class="form__input-other"
             type="email"
             id="email"
             required
@@ -28,16 +28,17 @@
       </div>
 
       <div class="form__element">
-        <label for="adress">Adress</label>
-        <div class="input-wrap">
-          <input type="text" name="adress" id="adress" required />
+        <label class="form__label" for="adress">Adress</label>
+        <div class="form__input-wrap">
+          <input class="form__input-other" type="text" name="adress" id="adress" required />
         </div>
       </div>
 
       <div class="form__element">
-        <label for="tel">Phone number</label>
-        <div class="input-wrap">
+        <label class="form__label" for="tel">Phone <br/> number</label>
+        <div class="form__input-wrap">
           <input
+          class="form__input-other"
             type="tel"
             id="tel"
             required
@@ -45,20 +46,37 @@
           />
         </div>
       </div>
-
-      <div class="accept">
+      <div class="form__bottom">
+        <div class="
+        form__accept">
         <input
           type="checkbox"
           id="accept"
           name="accept"
           class="visually-hidden"
+          value="agree"
           required
         />
-        <label for="accept" class="label-chexbox">
+        <label for="accept" class="form__label-chexbox">
+          <div class="form__checkbox">
+								<svg class="form__checkbox-icons" width="12px">
+									<use href="./images/sprite.svg#check"></use>
+								</svg>
+							</div>
           I agree to receive news
       </div>
 
-      <button type="submit" class="form-send">Register</button>
+      <button type="submit" class="form__send">Register</button>
+      </div>
+      
     </form>
+
+      <img
+    src="./images/modal.png"
+    alt="grass"
+    class="modal-grass"
+    width="200"
+    height="270"
+  />
   </div>
 </div>
