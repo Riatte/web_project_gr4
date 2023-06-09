@@ -1,0 +1,47 @@
+.footer{
+    height: 194px;
+    &__high{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 44px;
+        margin-bottom: 44px;
+    }
+    &__p{
+        font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: var(--primary-bg-color);
+    }
+    &__social{
+        display: flex;
+        gap: 14px;
+    }
+    &__line{
+        border-top: 2px solid var(--beige-bg-color);
+        height: 70px;
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__p-bottom{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: var(--primary-bg-color);
+    }
+    &__links{
+        display: flex;
+        gap: 14px;
+    }
+    &__link-item{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: right;
+        color: var(--green-social);
+        text-decoration: none;
+    }
+}
