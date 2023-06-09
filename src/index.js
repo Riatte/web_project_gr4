@@ -32,6 +32,14 @@
   }
 })();
 
+$(".partner_ul").slick({
+  dots: true,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 2
+});
+
 $(".team__list").slick({
   dots: true,
   infinite: false,
@@ -39,3 +47,4 @@ $(".team__list").slick({
   slidesToShow: 3,
   slidesToScroll: 2
 });
+

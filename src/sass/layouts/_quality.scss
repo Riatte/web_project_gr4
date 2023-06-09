@@ -11,7 +11,6 @@
         font-size: 48px;
         line-height: 54px;
         color: #FBFAF7;
-        margin-top: 66px;
         text-align: center;
     }
 
@@ -27,28 +26,28 @@
         flex-direction: column;
     }
 
-    &__img_one {
+    &__img-one {
         width: 117px;
         height: 145;
         margin-top: 74px;
         margin-bottom: 21px;
     }
 
-    &__img_two {
+    &__img-two {
         width: 79px;
         height: 160px;
         margin-top: 67px;
         margin-bottom: 13px;
     }
 
-    &__img_three {
+    &__img-three {
         width: 66px;
         height: 145px;
         margin-top: 67px;
         margin-bottom: 28px;
     }
 
-    &__img_four {
+    &__img-four {
         width: 91.83px;
         height: 145px;
         margin-top: 67px;
@@ -61,5 +60,8 @@
         line-height: calc(27/18);
         color: #FBFAF7;
     }
-
+    &__wrap{
+        padding-top: 66px;
+        margin-bottom: 0px;
+    }
 }
