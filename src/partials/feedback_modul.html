@@ -1,24 +1,37 @@
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <!-- <button data-modal-close class="button-close">
+<div class="backdrop is-hidden-f" data-modal-feed>
+  <div class="modal-feedback">
+    <button data-modal-feed-close class="button-close">
       <svg class="close-icons" width="18px" hight="18px">
-        <use href="./images/icons.svg#icon-cross"></use>
+        <use href="./images/sprite.svg#cross"></use>
       </svg>
-    </button> -->
-    <h2 class="form__head">Feedback</p>
-    <form action="" class="form__modal">
-      <div class="form__element">
-        <label for="name">Full Name</label>
-        <div class="input-wrap">
-          <input type="text" name="name" id="name" required />
-          <input type="text" name="name" id="name" required />
+    </button>
+    <h2 class="form__feed-head">Feedback</h2>
+    <form action="" class="form__feed-modal">
+      <div class="form__feed-element">
+        <label class="form__label" for="name">Full Name</label>
+        <div class="form__input-feed-wrap">
+          <input
+            class="form__input-feed"
+            type="text"
+            name="name"
+            id="name"
+            required
+          />
+          <input
+            class="form__input-feed"
+            type="text"
+            name="name"
+            id="name"
+            required
+          />
         </div>
       </div>
 
-   <div class="form__element">
-        <label for="email">Email</label>
-        <div class="input-wrap">
+      <div class="form__feed-element">
+        <label class="form__label" for="email">Email</label>
+        <div class="form__input-feed-wrap">
           <input
+            class="form__input-other-feed"
             type="email"
             id="email"
             required
@@ -27,75 +40,93 @@
         </div>
       </div>
 
-    
-      <div class="form__element">
-        <label for="message">Message</label>
+      <div class="form__feed-element form__feed-element-text">
+        <label class="form__label" for="message">Message</label>
         <textarea
+          class="form__textarea-feed"
           name="message"
           rows="5"
           placeholder="Введіть текст"
         ></textarea>
       </div>
 
-      <div class="feedback__rate">
-        <p>How do you rate your overall experience?</p>
-        <label>
-           <input
-          type="radio"
-          id="accept"
-          name="rate"
-          value="very good"
-          class="feedback__radio"
-          required
-        /> 
-            very good
-        </label>
-        <label>
-           <input
-          type="radio"
-          id="accept"
-          name="rate"
-          value="good"
-          class="feedback__radio"
-          required
-        /> 
-            good
-        </label>
-        <label>
-           <input
-          type="radio"
-          id="accept"
-          name="rate"
-          value="average"
-          class="feedback__radio"
-          required
-        /> 
-            average
-        </label>
-        <label>
-           <input
-          type="radio"
-          id="accept"
-          name="rate"
-          value="bad"
-          class="feedback__radio"
-          required
-        /> 
-            bad
-        </label>
-        <label>
-           <input
-          type="radio"
-          id="accept"
-          name="rate"
-          value="very bad"
-          class="feedback__radio"
-          required
-        /> 
-            very bad
-        </label>      
+      <div class="feedback__modal-rate">
+        <p class="feedback__modal-p">
+          How do you rate your overall experience?
+        </p>
+        <div class="feedback__modal-btn-wrap">
+          <div class="feedback__rate-wrap">
+            <label class="feedback__modal-label">
+              <input
+                type="radio"
+                id="accept"
+                name="rate"
+                value="very good"
+                class="feedback__radio visually-hidden"
+                required
+              />
+              <span class="feedback__radio-icon"></span>
+              very good
+            </label>
+            <label class="feedback__modal-label">
+              <input
+                type="radio"
+                id="accept"
+                name="rate"
+                value="good"
+                class="feedback__radio visually-hidden"
+                required
+              />
+              <span class="feedback__radio-icon"></span>
+              good
+            </label>
+            <label class="feedback__modal-label">
+              <input
+                type="radio"
+                id="accept"
+                name="rate"
+                value="average"
+                class="feedback__radio visually-hidden"
+                required
+              />
+              <span class="feedback__radio-icon"></span>
+              average
+            </label>
+            <label class="feedback__modal-label">
+              <input
+                type="radio"
+                id="accept"
+                name="rate"
+                value="bad"
+                class="feedback__radio visually-hidden"
+                required
+              />
+              <span class="feedback__radio-icon"></span>
+              bad
+            </label>
+            <label class="feedback__modal-label">
+              <input
+                type="radio"
+                id="accept"
+                name="rate"
+                value="very bad"
+                class="feedback__radio visually-hidden"
+                required
+              />
+              <span class="feedback__radio-icon"></span>
+              very bad
+            </label>
+          </div>
+        </div>
       </div>
-      <button type="submit" class="feedback__form-send">Send</button>
     </form>
+    <button type="submit" class="feedback__form-send">Send</button>
+    <img
+      src="./images/plain.png"
+      alt="grass"
+      class="modal-plain"
+      width="300"
+      height="300"
+    />
   </div>
 </div>
